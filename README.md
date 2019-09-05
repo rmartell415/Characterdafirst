@@ -1,14 +1,10 @@
 #Characterdafirst
- character
+
+function setup()
+{createCanvas(100, 50);
+  background(153);
+  line(0, 0, width, height);}
 
  function draw(){
 
-   fill("blue");
-   quad(200,200,50,50); // blue quad
-   ellipse(300,200,50,50); // blue ellipse
-   fill("red");
-   triangle(400,200,50,50); // red triangle
-   fill("green");
-   arc(500,200,50,50); // green arc
-   fill('#fae');
-   rect(20, 20, 60, 60); // fae rect
+ellipse(200, 200, 300, 350)
